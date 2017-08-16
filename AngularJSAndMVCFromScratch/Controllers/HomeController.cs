@@ -26,5 +26,14 @@ namespace AngularJSAndMVCFromScratch.Controllers
 
             return View();
         }
+        public ActionResult MyActions()
+        {
+            ViewBag.Message = "Your myactions page.";
+
+            return View();
+        }
+        public ActionResult Main() {
+            return View();
+        }
     }
 }
